@@ -303,16 +303,20 @@ P.S: пользоваться встроенной сортировкой зап
 Примечание: для вывода результирующего списка вы можете использовать следующую конструкцию
 print(*result) # где result - итоговый список
 """
-n, m = map(int, input().split())
-result = []
-temp = []
-flag = True
-while flag:
-    list_n = list(input().split())[:n]
-    list_m = list(input().split())[:m]
-    flag = False
-temp = list_n + list_m
-while temp != []:
-    result.append(min(temp))
-    temp.remove(min(temp))
-print(*result)
+# n, m = map(int, input().split())
+# result = []
+# temp = []
+# flag = True
+# while flag:
+#     list_n = list(map(int, input().split()))[:n]
+#     list_m = list(map(int, input().split()))[:m]
+#     flag = False
+# temp = list_n + list_m
+# while temp != []:
+#     result.append(min(temp))
+#     temp.remove(min(temp))
+# print(*result)
+
+"""
+
+"""
